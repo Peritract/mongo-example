@@ -1,0 +1,1 @@
+docker run --name example-mongo -d --mount type=bind,source="$(pwd)",dst="/code" mongo
